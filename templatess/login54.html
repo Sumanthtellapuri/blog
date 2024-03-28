@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+      .bg-container{
+        background-image: url("https://img.freepik.com/free-photo/flat-lay-desk-concept-with-copy-space_23-2148236810.jpg?t=st=1711512805~exp=1711516405~hmac=31b32601b84fbba8cfb0e097f8c789194b82f534710f1e3ad900f5d6538c070b&w=900");
+        background-size:cover;
+        height:100vh;
+      }
+      .login-heading{
+        color:blue;
+        font-size: 45px;
+        font-family: "Roboto";
+        text-align: center;
+      }
+      .btn{
+        width:90px;
+        height:40px;
+        color:white;
+        font-family: "Roboto";
+      }
+      label{
+        padding-right: 10px;
+        padding-left: 5px;
+      }
+      input{
+        padding-left: 5px;
+        width:100%
+      }
+    </style>
+</head>
+  <body>
+    <div class= "bg-container d-flex flex-column justify-content-center align-items-center">
+    <div class="login-page">
+      <h1 class="login-heading mt-3 pt-4 pb-3">Login</h1>
+      <form method="POST">
+        <label>Username: </label><br>
+        <input type="text" name="username" /><br />
+        <label>Password: </label><br>
+        <input type="password" name="password" /><br />
+        <br />
+        <center><button class="btn btn-primary">Submit</button></center>
+
+      </form>
+    </div>
+
+  </div> 
+  </body>
+</html>
